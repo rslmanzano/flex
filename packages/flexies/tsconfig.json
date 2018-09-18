@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "lib",
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react",
+        "declaration": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        // "noUnusedLocals": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "preserveConstEnums": true,
+        "lib": ["es2017", "dom"],
+        "typeRoots": ["index.d.ts", "node_modules/@types"]
+    },
+    "include": [
+        "src"
+      ],
+    "exclude": ["node_modules"]
+}

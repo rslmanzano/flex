@@ -1,0 +1,25 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "rules": {
+      "max-line-length": [false],
+      "member-ordering": [true, { "order": "fields-first" }],
+      "no-namespace": false,
+      "no-console": [],
+      "object-literal-sort-keys": false,
+      "trailing-comma": "never",
+      "ordered-imports": false,
+      "triple-equals": false,
+      "only-arrow-functions": false,
+      "interface-name": [true, "never-prefix"],
+      "no-empty-interface": null
+  },
+  "jsRules": {
+      "object-literal-sort-keys": false
+  },
+    "linterOptions": {
+      "exclude": [
+        "config/**/*.js",
+        "node_modules/**/*.ts"
+      ]
+    }
+  }
